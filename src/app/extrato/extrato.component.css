@@ -1,0 +1,33 @@
+.titulo {
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+
+.tabela {
+  text-align: center;
+  margin: 0 auto;
+  background-color: white;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.cabecalho {
+  color: var(--primary);
+}
+
+.cabecalho.conteudo {
+    padding: 10px;
+    border-bottom: 1px solid var(--cinza-claro);
+}
+
+.conteudo {
+  padding: 10px;
+  border-bottom: 2px solid green;
+}
+
+.linha {
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+
