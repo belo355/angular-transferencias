@@ -20,9 +20,9 @@ registerLocaleData(localePt, 'pt');
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    AppRoutingModule
   ],
   providers: [
     { provide: LOCALE_ID, useValue: 'pt' },
